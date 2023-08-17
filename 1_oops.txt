@@ -32,8 +32,50 @@ OOPs ->
         l = []
         len(l) #it's a function,
         l.append(1)  #this is method, or function inside list class
-
     
+    Contructor is the speacial method whose code is created when the object is created inside.
+
+        -> python mai constructor ka naam __init__ hi hona chaiye
+        -> 
+
+Magic Methods -> __methods__ (age aur piche underscore hoga)
+    magic methods mai,object call nahi karega.
+    they will be called on their own, for a given condition.
+
+    constructor is one of the magic method
+    use of constructor 
+        -> ek aaisa method, jiska control user ke paas nahi hai.
+        >eg. connecting with GPS, Internet, etc (in background we do this codes)
+
+        God is programmer, and world is class. human is object
+        -> contructor ke ander woh cheeze hai jo mere control mai nahihai, -> death
+    
+Self -> print(id(self)) 
+    kyuki self is considered as object in python. so we can have address of the self.
+     -->->-> id(sbi)
+    -> sbi hi self hai
+
+    jo object ke sath hum currently kaam kar rhe hai, wohi self hota hai.
+        input mai self kyu mil rha hai?
+            class ke methods ko sirf uss class ko object access kar sakta hai...
+
+            one methods of the same class cannot acesss the other methods of the same class.
+                but to access the other methods, we can do that using self. 
+            
+Create our own datatype.
+eg - create data type where you can access data in python\
+    3rd file
+
+
+
+Instance variable -> aaise variable jinka value har object keliey alag hota hai
+
+Encapsulation ->
+    
+
+
+
+
 
     
 
