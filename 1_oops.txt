@@ -71,6 +71,37 @@ eg - create data type where you can access data in python\
 Instance variable -> aaise variable jinka value har object keliey alag hota hai
 
 Encapsulation ->
+    python mai price function nahi hota.
+    so we put double underscore, in init
+    def __init__(self):
+        self.__pin = ""
+        self.__balance = 20
+    
+    we can even hide function,
+    def __function(self):
+     
+    what happens internerlly
+    when we add __pin, then python does the className to _className
+        so pin will look like, _className__pin
+    
+    Nothing in python is truly private.
+        this desision was taken, because in python they do not wanted to 
+Encapsulation -> to prevent data from modifying accidently
+
+
+the following is a class diagram.
+Class  (ATM)
+    Attribute (__pin,__balence)
+        methods (__init__,menu,changepin,withdraw)
+    
+
+Reference Variable ->
+    a = Atm()
+    object Atm() hai, and a mai usko refer kiya gya hai.
+    so a is called as reference variable
+
+Pass by Reference -> 
+
     
 
 
