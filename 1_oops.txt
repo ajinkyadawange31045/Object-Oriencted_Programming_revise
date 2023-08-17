@@ -1,0 +1,39 @@
+OOPs ->
+1. Object
+2. Class
+3. polymorhism
+4. Encapsulation
+5. Inheritance
+6. Abstraction
+
+
+1. Object 
+    object class ka hi hota hai,object and variable are almost same.
+    a = [1,2,3]
+    object is a instance of class
+
+2. Class
+    Class is a blueprint
+    blueprint of how the object will behave
+
+    class has either data, or desciption
+    camelCase -> Camel (first letter capital)
+    snake case -> ajinkya_dawange (iunderscore lagta hai)
+    - syntax:
+    class Car: #class name should be in Pascal case (ThisISPascalCase)
+    > + (public hai toh plus se represent hota hai, - private represent with minus)
+    class -> object
+    car  -----> Innova
+    sports ---> Cricket
+
+    object literals, available for built in classes
+
+    methods are the functions which are inside a class
+        l = []
+        len(l) #it's a function,
+        l.append(1)  #this is method, or function inside list class
+
+    
+
+    
+
